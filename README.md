@@ -8,8 +8,7 @@ app.js - Express应用配置文件
 ## 启动服务器
 
 ### 配置数据库
-打开config文件夹下的dbconfig.js文件
-修改正确的数据库配置
+将Sql文件上传到mysql中,打开config文件夹下的dbconfig.js文件,修改正确的数据库配置
 ```
 module.exports = {
     host: 'localhost', // 服务器地址
