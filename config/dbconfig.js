@@ -1,4 +1,4 @@
-// config.js  MySQL 数据库配置文件
+//  MySQL 数据库配置文件
 
 module.exports = {
     host: 'localhost', // 服务器地址
