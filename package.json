@@ -1,0 +1,43 @@
+{
+    "scripts": {
+        "server": "node app.js",
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "bcryptjs": "^3.0.2",
+        "cors": "^2.8.5",
+        "crypto-js": "^4.1.1",
+        "express": "^4.21.2",
+        "express-fileupload": "^1.4.0",
+        "express-rate-limit": "^6.7.0",
+        "feed": "^5.0.0",
+        "helmet": "^7.0.0",
+        "hpp": "^0.2.3",
+        "ioredis": "^5.2.5",
+        "jimp": "^0.16.13",
+        "jsonwebtoken": "^8.5.1",
+        "multer": "^1.4.4",
+        "mysql": "^2.18.1",
+        "mysql2": "^2.3.3",
+        "node-cache": "^5.1.2",
+        "redis": "^3.1.2",
+        "strip-html": "^1.0.2",
+        "uuid": "^8.3.2",
+        "winston": "^3.8.2"
+    },
+    "devDependencies": {
+        "@types/crypto-js": "^4.1.1"
+    },
+    "engines": {
+        "node": "16.x",
+        "npm": ">=6.0.0"
+    },
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs"
+}
